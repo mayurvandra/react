@@ -34,7 +34,7 @@ If you have [npm](https://www.npmjs.com/), you can run `npm install -g babel-cli
 
 This tool will translate files that use JSX syntax to plain JavaScript files that can run directly in the browser. It will also watch directories for you and automatically transform files when they are changed; for example: `babel --watch src/ --out-dir lib/`.
 
-Beginning with Babel 6, there are no transforms included by default. This means that options must be specified when running the `babel` command, or a `.babelrc` must specify options. Additional packages must also be installed which bundle together a number of transforms, called presets. The most common use when working with React will be to include the `es2015` and `react` presets. More information about the changes to Babel can be found in [their blog post announcing Babel 6](http://babeljs.io/blog/2015/10/29/6.0.0/).
+Beginning with Babel 6, there are no transforms included by default. This means that options must be specified when running the `babel` command, or a `.babelrc` must specify options. Additional packages must also be installed which bundle together a number of transforms, called presets. The most common use when working with React will be to include the `es2015` and `react` presets. More information about the changes to Babel can be found in [their blog post announcing Babel 6](http://babeljs.io/blog/2015/10/29/6.0.0).
 
 Here is an example of what you will do if using ES2015 syntax and React:
 
